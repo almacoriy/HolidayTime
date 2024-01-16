@@ -1,34 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
-	<link rel="stylesheet" href="./css/main.min.css" />
-</head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo header__logo" href="./index.html"
+          ><img src="./image/icon/icon.svg" alt=""
+        /></a>
 
-<body>
-	<header>
-		<!-- Hero -->
+        <nav class="header__nav">
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./indexhtml">ГОЛОВНА</a
+              ><span class="site-nav__separ"></span>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./about.html">ПРО НАС</a
+              ><span class="site-nav__separ"></span>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./reservation.html">ЗАБРОНЮВАТИ</a
+              ><span class="site-nav__separ"></span>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./contacts.html">КОНТАКТИ</a
+              ><span class="site-nav__separ"></span>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./account.html"
+                >ОСОБИСТИЙ КАБІНЕТ</a
+              ><span class="site-nav__separ"></span>
+            </li>
+          </ul>
+        </nav>
 
-		<!-- Our offers -->
+        <div class="header__lang">
+          <img class="header__globe" src="./image/icon/globe.svg" alt="" />
+          <p class="header__lang-select">UA</p>
+        </div>
+      </div>
+    </header>
 
-		<!-- Description -->
+    <main>
+      <!-- Hero -->
+      <section class="section hero">
+        <div class="container hero__block">
+          <div>
+            <h1 class="hero__title">HolidayTime</h1>
+            <p class="hero__text">
+              Автентичний відпочинок серед українського колориту!
+            </p>
+          </div>
+        </div>
+      </section>
 
-		<!-- Feedback -->
+      <!-- Our offers -->
+      <section class="section offers">
+        <div class="container offers-container">
+          <h2 class="offers__title">Our offers</h2>
+          <ul class="offers__list">
+            <li class="offers__item offers__item--active">
+              <p class="offers__content">
+                Полонини Карпат, у селі Орів посеред гір розташувався затишний
+                куточок для незабутніх вражень. Справжні українські гори,
+                власноручне сироваріння на полонині, водоспади та вікові дерева
+                чекають на Вас.
+              </p>
+              <a href="./booking-karpathians.html" class="offers__link"
+                >Переглянути
+                <span class="icon"
+                  ><img
+                    src="./image/icon/arrow.svg"
+                    alt=""
+                    class="link__icon" /></span
+              ></a>
+            </li>
 
-		<!-- Footer -->
-	</header>
+            <li class="offers__list visually-hidden">
+              <p class="offers__content">
+                Незважаючи на віддаленість від цивілізації, Вам зовсім не
+                доведеться нудьгувати, адже тут є безліч розваг. Ви зможете
+                ознайомитися із природою верхи на конях або у кареті,
+                прогулятися біля озера, зайнятися риболовлею, гончарством,
+                ковальством, різьбою по дереву, плетінням з бісеру, стрільбою з
+                лука, пейнтболом, переглянути фільми або відпочити у сауні.
+              </p>
+              <a href="" class="link__icon"
+                >Переглянути
+                <img
+                  src="./image/icon/arrow.svg"
+                  alt=""
+                  class="offers__link-icon"
+              /></a>
+            </li>
 
-	<main></main>
+            <li class="offers__list visually-hidden">
+              <p class="offers__content">
+                У Хмельницькій області розташований загублений край - Бакота.
+                Мальовничий каньйон з давньою історією захоплює своїми
+                просторами та незвичною атмосферою. Бджільництво, свіжий мед із
+                польових трав, дотик до природи.
+              </p>
+              <a href="" class="link__icon"
+                >Переглянути
+                <img
+                  src="./image/icon/arrow.svg"
+                  alt=""
+                  class="offers__link-icon"
+              /></a>
+            </li>
 
-</body>
+            <li class="offers__list visually-hidden">
+              <p class="offers__content"></p>
+              <a href="" class="link__icon"
+                >Переглянути
+                <img
+                  src="./image/icon/arrow.svg"
+                  alt=""
+                  class="offers__link-icon"
+              /></a>
+            </li>
 
+            <li class="offers__list visually-hidden">
+              <p class="offers__content">
+                Неподалік центра Києва розташувалось автентичне українське село
+                на території однойменного села Пирогово. Дерев’яні млини,
+                запашний хліб, приготовлений своїми руками, українські пісні та
+                багато іншого чекає на вас уже зараз.
+              </p>
+              <a href="" class="link__icon"
+                >Переглянути
+                <img
+                  src="./image/icon/arrow.svg"
+                  alt=""
+                  class="offers__link-icon"
+              /></a>
+            </li>
+
+            <li class="offers__list visually-hidden">
+              <p class="offers__content"></p>
+              <a href="" class="link__icon"
+                >Переглянути
+                <img
+                  src="./image/icon/arrow.svg"
+                  alt=""
+                  class="offers__link-icon"
+              /></a>
+            </li>
+
+            <li class="offers__list visually-hidden">
+              <p class="offers__content">
+                В Одеській області знаходиться мальовниче містечко Вилкове. Його
+                ще називають «українською Венецією». Вилкове - це містечко на
+                воді, весь в каналах. Розташоване в місці, де зустрічаються
+                річка Дунай і Чорне море. Люди пересуваються переважно човнами.
+                Нетипове українське село не залишить Вас без вражень.
+              </p>
+              <a href="" class="link__icon"
+                >Переглянути
+                <img
+                  src="./image/icon/arrow.svg"
+                  alt=""
+                  class="offers__link-icon"
+              /></a>
+            </li>
+
+            <li class="offers__list visually-hidden">
+              <p class="offers__content"></p>
+              <a href="" class="link__icon"
+                >Переглянути
+                <img
+                  src="./image/icon/arrow.svg"
+                  alt=""
+                  class="offers__link-icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Prezentation -->
+      <section class="section">
+        <div class="container presentation">
+          <img
+            class="presentation__img"
+            src="./image/main/feedback.jpg"
+            alt=""
+          />
+          <p class="presentation__text">
+            Активний відпочинок у нетипових лоцаціях. Незаймана природа та
+            місцевий колорит подарують Вам незабутні враження.
+          </p>
+        </div>
+      </section>
+
+      <!-- Feedback -->
+
+      <!-- Footer -->
+      <section class="section footer">
+        <p class="container footer__text">
+          © 2021 HolidayTime. All rights reserved.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>

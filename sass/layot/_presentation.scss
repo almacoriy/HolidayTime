@@ -1,0 +1,22 @@
+.presentation {
+  @include centeredFlex;
+	padding: 30px 70px;
+
+  background-color: rgba(193, 193, 195, 0.9);
+}
+
+.presentation__img {
+  max-width: 698px;
+  margin-right: 18px;
+}
+
+.presentation__text {
+  @include centeredFlex;
+  height: 349px;
+  padding: 34px;
+
+  background-color: #f2eeee;
+
+  @include font(26px);
+  text-align: center;
+}

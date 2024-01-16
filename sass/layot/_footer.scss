@@ -1,0 +1,9 @@
+.footer {
+	background-color: $secondaryBgColor;
+}
+
+.footer__text {
+	@include font(36px);
+	font-style: italic;
+	color: #EEECF1;
+}

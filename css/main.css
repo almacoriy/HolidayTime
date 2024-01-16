@@ -1,1 +1,246 @@
-/*# sourceMappingURL=main.css.map */
+.offers__list, .site-nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.offers__link, .site-nav__link {
+  text-decoration: none;
+}
+
+.offers__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  color: #202846;
+  line-height: normal;
+  background-color: #dcdcdc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1520px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 1px solid tomato;
+}
+
+.section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.site-nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 64px;
+}
+
+.site-nav__item {
+  width: 170px;
+  text-align: center;
+  outline: 1px solid tomato;
+}
+.site-nav__item:not(:last-child) {
+  margin-right: 54px;
+}
+
+.site-nav__link {
+  color: inherit;
+}
+
+.header {
+  background-color: #202846;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 1720px;
+}
+
+.header__lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__globe {
+  margin-right: 8px;
+}
+
+.header__lang-select {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.hero {
+  background-color: #dcdcdc;
+}
+
+.hero__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 369px;
+  background-image: url(/image/main/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__title {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.hero__text {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 70px;
+  background-color: rgba(193, 193, 195, 0.9);
+}
+
+.presentation__img {
+  max-width: 698px;
+  margin-right: 18px;
+}
+
+.presentation__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 349px;
+  padding: 34px;
+  background-color: #f2eeee;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer {
+  background-color: #202846;
+}
+
+.footer__text {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #EEECF1;
+}
+
+.offers-container {
+  background-image: url(/image/main/our-offers/karpaty/karpaty-1-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offers__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 604px;
+}
+
+.offers__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1112px;
+  height: 167px;
+  padding-right: 26px;
+  padding-left: 26px;
+  background-color: rgba(211, 211, 211, 0.85);
+  color: #202846;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.offers__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 68px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background-color: #202846;
+  border-radius: 33px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.icon {
+  margin-left: 11px;
+}/*# sourceMappingURL=main.css.map */

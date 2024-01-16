@@ -1,0 +1,21 @@
+.site-nav__list {
+  @include centeredFlex;
+  @extend %list;
+  margin-right: 64px;
+}
+
+.site-nav__item {
+  width: 170px;
+  &:not(:last-child) {
+    margin-right: 54px;
+  }
+
+  text-align: center;
+
+  outline: 1px solid tomato;
+}
+
+.site-nav__link {
+  @extend %link;
+  color: inherit;
+}

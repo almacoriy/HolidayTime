@@ -1,0 +1,63 @@
+.offers {
+}
+
+.offers-container {
+  background-image: url(/image/main/our-offers/karpaty/karpaty-1-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offers__title {
+  @extend %hidden;
+}
+
+.offers__list {
+  @extend %list;
+}
+
+.offers__item {
+  @include centeredFlex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  height: 604px;
+}
+
+.offers__item--active {
+}
+
+.offers__content {
+  @include centeredFlex;
+  width: 1112px;
+  height: 167px;
+  padding-right: 26px;
+  padding-left: 26px;
+
+	background-color: rgba(211, 211, 211, 0.85);
+
+  color: $primeryFontColor;
+  @include font(24px);
+  font-style: italic;
+}
+
+.offers__link {
+  @include centeredFlex;
+  width: 245px;
+  height: 68px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+
+  @extend %link;
+  background-color: $secondaryBgColor;
+  border-radius: 33px;
+  color: $secondaryFontColor;
+  @include font(24px);
+}
+
+.icon {
+  margin-left: 11px;
+}
+
+.link__icon {
+}

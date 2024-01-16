@@ -1,17 +1,14 @@
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: $primeryFont;
-	color: $primeryFontColor;
-	background-color: ffffff;
+  font-family: "PT Sans", sans-serif;
+  color: $primeryFontColor;
+  line-height: normal;
+  background-color: $primeryBgColor;
 }
 
 h1,
@@ -27,6 +24,6 @@ p {
 
 img {
   display: block;
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
 }

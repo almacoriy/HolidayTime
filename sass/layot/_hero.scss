@@ -1,0 +1,24 @@
+.hero {
+  background-color: $primeryBgColor;
+}
+
+.hero__block {
+  @include centeredFlex;
+  height: 369px;
+
+  background-image: url(/image/main/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  text-align: center;
+  color: $secondaryFontColor;
+}
+
+.hero__title {
+  @include font(75px, 700);
+}
+
+.hero__text {
+  @include font(50px, 700);
+}

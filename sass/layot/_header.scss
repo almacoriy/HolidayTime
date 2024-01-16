@@ -1,0 +1,24 @@
+.header {
+
+  background-color: $secondaryBgColor;
+  @include font(24px, 700);
+  color: $secondaryFontColor;
+}
+
+.header-container {
+  @include centeredFlex;
+  justify-content: space-between;
+  width: 1720px;
+}
+
+.header__lang {
+  @include centeredFlex;
+}
+
+.header__globe {
+  margin-right: 8px;
+}
+
+.header__lang-select {
+  @include font(28px, 700);
+}
